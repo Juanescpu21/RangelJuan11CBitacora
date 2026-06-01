@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitácora Juan Esteban Rangel</title>
+    <link rel="icon" type="image/png" href="recursos/img/Logorojo.png">
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            background-color: #f0f2f5; 
+        }
+        header {
+            padding: 20px;
+            background-color: rgb(13, 49, 121);
+        }
+        
+        h1 {
+            color: white;
+            text-shadow: 0 0 8px #00d4ff, 0 0 15px #00d4ff;
+            letter-spacing: 1px;
+        }
+
+        main {
+            flex: 1;
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: 0 auto;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .semana {
+            background-color: white;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); 
+            text-align: left;
+            border-left: 8px solid rgb(13, 49, 121); 
+            transition: 0.3s;
+        }
+        .semana:hover {
+            transform: translateY(-5px);
+        }
+        footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 50px;
+            border-top: 1px solid rgba(0,0,0,0.1);
+            background-color: rgb(202, 42, 42); 
+            color: white;
+        }
+        .logo-colegio {
+            transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+        .logo-colegio:hover {
+            transform: scale(1.1);
+        }
+
+        @media(max-width: 600px) {
+            footer {
+                flex-direction: column;
+                gap: 15px;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bitácora Segunda y Tercera Unidad</h1>
+    </header>
+    <main>
+        <div class="semana">
+            <h2>Semana 1: Configuración del Proyecto</h2>
+            <p>En esta semana establecimos la estructura básica de nuestro sitio web usando etiquetas semánticas de HTML5.</p>
+                <iframe src="recursos/img/Introducción Arduino.pdf JUANRANGEL.pdf" 
+            width="100%" 
+            height="500px" 
+            style="border: none; margin-top: 20px;">
+    </iframe>
+        </div>
+
+        <div class="semana">
+            <h2>Semana 2: Estilos y Personalización</h2>
+            <p>Aprendimos a usar CSS para mejorar la experiencia visual, incluyendo sombras neón y tarjetas de contenido.</p>
+        </div>
+    </main>
+    <footer>
+        <span>@Juanes246</span>
+        <img class="logo-colegio" src="https://www.capouilliez.edu.gt/assets/img/logo.png" height="50" width="200" alt="Logo Colegio">
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
